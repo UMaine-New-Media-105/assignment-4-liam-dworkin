@@ -23,6 +23,31 @@ function draw() {
     chooseSprite(thisSprite, counter * offsetLeft, 0);
   }
   pop();
+  
+  //translated over again for multiple rows
+  push();
+  translate(40, 200);
+  for (let counter = 0; counter < spritesPerRow; counter++) {
+    let thisSprite = sprites[counter % sprites.length];
+    chooseSprite(thisSprite, counter * offsetLeft, 0);
+  }
+  pop();
+  
+  push();
+  translate(40, 350);
+  for (let counter = 0; counter < spritesPerRow; counter++) {
+    let thisSprite = sprites[counter % sprites.length];
+    chooseSprite(thisSprite, counter * offsetLeft, 0);
+  }
+  pop();
+  
+  push();
+  translate(40, 510);
+  for (let counter = 0; counter < spritesPerRow; counter++) {
+    let thisSprite = sprites[counter % sprites.length];
+    chooseSprite(thisSprite, counter * offsetLeft, 0);
+  }
+  pop();
 }
 
 //the conditional that defines the 'star1' variables values as far as size, shape, etc...
