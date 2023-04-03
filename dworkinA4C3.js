@@ -15,7 +15,7 @@ function draw() {
   //background color, translation to get my row straighter and on screen (the only way I could figure it) and then a for loop containing the row parameters for how to count as well as well as how to draw on the array's listed assets for a 'row'
 
   //couldn't get it 100% straight- I'll ask about it later because this isn't 100% done
-  background("palegoldenrod");
+  background("pink");
   push();
   translate(40, 40);
   for (let counter = 0; counter < spritesPerRow; counter++) {
@@ -58,11 +58,11 @@ function draw() {
 
 function chooseSprite(spriteName, spriteX, spriteY) {
   if (spriteName == "star1") {
-    starBuilder1(spriteX, spriteY, random(10 - 30), 90, random(8), 0.1);
+    starBuilder1(spriteX, spriteY, random(10 - 30), 90, random(4,8), 0.1);
   } else if (spriteName === "star2") {
-    starBuilder2(spriteX, spriteY, random(10 - 30), 100, random(6), 0.1);
+    starBuilder2(spriteX, spriteY, random(10 - 30), 100, random(5,8), 0.1);
   } else if (spriteName == "star3") {
-    starBuilder3(spriteX, spriteY, random(10 - 40), 55, random(10), 0.1);
+    starBuilder3(spriteX, spriteY, random(10 - 40), 55, random(10,15), 0.1);
   }
 }
 
