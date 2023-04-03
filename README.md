@@ -11,3 +11,9 @@ Part 2 takes my star function and adds it three separate times into an array of 
 create a row effect of the stars with different colors, sizes, and points. It is mostly finished though I want to clean it up. 
 
 Part 2 Code Link - https://editor.p5js.org/liamdworkin/sketches/ED6fhykH2
+
+Part 3 adds in random colors, sizing, and point values for my star patterns to keep some level of cohesive composition while also making much of each individual
+pattern 'random' or dissimilar in small ways. I'm working on getting more colors in without limiting the scope to purely grayscale or a few color options. I also
+want to work more on randomizing positioning. 
+
+Part 3 Code Link - https://editor.p5js.org/liamdworkin/sketches/0W6KNWo1C
