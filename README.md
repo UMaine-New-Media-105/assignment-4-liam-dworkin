@@ -17,3 +17,9 @@ pattern 'random' or dissimilar in small ways. I'm working on getting more colors
 want to work more on randomizing positioning. 
 
 Part 3 Code Link - https://editor.p5js.org/liamdworkin/sketches/0W6KNWo1C
+
+Part 4 takes from the random colors, sizing, and rows and gives them a more uniform design, but each set of 2 rows for 4 is different in varying spacing. I am 
+trying to work more on unique row by row looping so all four rows are different outside of purely just the spacing, but I wanted to get the assignment in on time. 
+I will post an update later this weekend. THANKS! 
+
+Part 4 Code Link - https://editor.p5js.org/liamdworkin/sketches/LgdnDFZ-x
